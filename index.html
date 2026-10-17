@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#eef6f0" />
+    <meta
+      name="description"
+      content="Kashif Mehmood - Software Engineer, Full Stack Developer and Flutter Developer."
+    />
+    <title>Kashif Mehmood | Software Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/config.js" defer></script>
+    <script src="./js/github-api.js" defer></script>
+    <script src="./js/render.js" defer></script>
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+
+    <main>
+      <div class="top">
+        <span class="prompt">root@kashiTech:~#</span>
+        <button class="toggle" id="theme" type="button">Switch theme</button>
+      </div>
+
+      <section class="card hero">
+        <div class="avatar">
+          <img src="./public/myProfile.png" alt="Kashif Mehmood profile" />
+        </div>
+
+        <h1>Kashif Mehmood</h1>
+        <p class="sub">Software Engineer · Flutter · Full Stack · Qt</p>
+        <div class="type" id="type" aria-live="off"></div>
+
+        <div class="badges">
+          <span class="badge"
+            ><span class="dot"></span> STATUS <b>ONLINE</b></span
+          >
+          <span class="badge"><b>Kohat, KPK</b> 🇵🇰</span>
+          <span class="badge">Coding since <b>2022</b></span>
+          <span class="badge">Target <b>Senior Engineer</b></span>
+        </div>
+      </section>
+
+      <div class="cols">
+        <section class="card">
+          <h2>whoami</h2>
+          <dl>
+            <div class="row">
+              <dt>name</dt>
+              <dd>Kashif Mehmood</dd>
+            </div>
+            <div class="row">
+              <dt>role</dt>
+              <dd>Software Engineer</dd>
+            </div>
+            <div class="row">
+              <dt>location</dt>
+              <dd>Kohat, Khyber Pakhtunkhwa, Pakistan</dd>
+            </div>
+            <div class="row">
+              <dt>stack</dt>
+              <dd>Flutter · Full Stack · Qt · System Design</dd>
+            </div>
+            <div class="row">
+              <dt>learning</dt>
+              <dd>Cloud Computing · DevOps · CI/CD</dd>
+            </div>
+            <div class="row">
+              <dt>uptime</dt>
+              <dd>Always learning, never idle</dd>
+            </div>
+            <div class="row">
+              <dt>principles</dt>
+              <dd class="tags">
+                <span class="tag">clean-code</span>
+                <span class="tag">SOLID</span>
+                <span class="tag">scalable-arch</span>
+              </dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="card">
+          <h2>connect.sh</h2>
+          <div class="links">
+            <a
+              class="btn"
+              id="github-link"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              <span>⌘</span> GitHub
+            </a>
+            <a
+              class="btn"
+              id="linkedin-link"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              <span>in</span> LinkedIn
+            </a>
+            <a class="btn" id="email-link" href="#"> <span>✉</span> Email </a>
+            <a
+              class="btn"
+              id="leetcode-link"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              <span>⌘</span> LeetCode
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <section class="card">
+        <h2>cat /var/log/skills.log</h2>
+        <div class="skills">
+          <div class="sk">
+            <h3>&lt;/&gt; Languages</h3>
+            <span class="chip">JavaScript</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Python</span>
+            <span class="chip">Java</span>
+            <span class="chip">C++</span>
+            <span class="chip">Dart</span>
+          </div>
+
+          <div class="sk">
+            <h3>▦ Frameworks</h3>
+            <span class="chip">React</span>
+            <span class="chip">Next.js</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">Express</span>
+            <span class="chip">NestJS</span>
+            <span class="chip">Flutter</span>
+          </div>
+
+          <div class="sk">
+            <h3>▣ Frontend</h3>
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">Tailwind CSS</span>
+            <span class="chip">Bootstrap</span>
+            <span class="chip">Material UI</span>
+          </div>
+
+          <div class="sk">
+            <h3>▤ Database</h3>
+            <span class="chip">MySQL</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">MongoDB</span>
+            <span class="chip">Firebase</span>
+          </div>
+
+          <div class="sk">
+            <h3>☁ Cloud</h3>
+            <span class="chip">Docker</span>
+            <span class="chip">Kubernetes</span>
+          </div>
+
+          <div class="sk">
+            <h3>⑂ DevOps</h3>
+            <span class="chip">Git</span>
+            <span class="chip">GitHub</span>
+            <span class="chip">GitHub Actions</span>
+            <span class="chip">Linux</span>
+          </div>
+
+          <div class="sk">
+            <h3>⚙ Tools</h3>
+            <span class="chip">VS Code</span>
+            <span class="chip">Postman</span>
+            <span class="chip">Android Studio</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>history | grep "milestone"</h2>
+        <ol class="tl">
+          <li>
+            <div class="yr">2022</div>
+            <div class="ev">
+              <span class="st">INIT</span> Learning programming
+            </div>
+          </li>
+          <li>
+            <div class="yr">2023</div>
+            <div class="ev">
+              <span class="st">BUILD</span> Frontend development
+            </div>
+          </li>
+          <li>
+            <div class="yr">2024</div>
+            <div class="ev">
+              <span class="st">BUILD</span> Backend development
+            </div>
+          </li>
+          <li>
+            <div class="yr">2025</div>
+            <div class="ev">
+              <span class="st">DEPLOY</span> Full stack engineering · Flutter
+            </div>
+          </li>
+          <li>
+            <div class="yr">2026</div>
+            <div class="ev">
+              <span class="st">EXPLORE</span> Desktop apps · Cloud · DevOps
+            </div>
+          </li>
+          <li class="future">
+            <div class="yr">Future</div>
+            <div class="ev">
+              <span class="st">TARGET</span> Senior Software Engineer
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="card" id="github-stats">
+        <h2>github --stats</h2>
+
+        <p id="github-status" class="muted">
+          GitHub se real data load ho raha hai...
+        </p>
+
+        <div class="stats">
+          <div class="stat">
+            <b id="repo-count">--</b><span>Public repositories</span>
+          </div>
+          <div class="stat">
+            <b id="follower-count">--</b><span>Followers</span>
+          </div>
+          <div class="stat">
+            <b id="following-count">--</b><span>Following</span>
+          </div>
+          <div class="stat">
+            <b id="star-count">--</b><span>Repository stars</span>
+          </div>
+        </div>
+
+        <div class="sub2">Public repositories by language</div>
+        <div id="language-stats" class="language-stats">
+          <p class="muted">Languages load ho rahi hain...</p>
+        </div>
+
+        <div class="sub2">Latest public repositories</div>
+        <div id="repos" class="repos">
+          <p class="muted">Repositories load ho rahi hain...</p>
+        </div>
+
+        <a
+          class="btn external-link"
+          id="all-repos"
+          href="#"
+          target="_blank"
+          rel="noopener"
+        >
+          View all repositories →
+        </a>
+      </section>
+
+      <section class="card" id="leetcode-progress">
+        <h2>leetcode --progress</h2>
+
+        <p class="muted">Live statistics from your LeetCode profile.</p>
+
+        <div class="leetcode-stats">
+          <div class="leetcode-total">
+            <span class="muted">Problems Solved</span>
+            <strong id="leetcode-solved">--</strong>
+          </div>
+
+          <div class="leetcode-total">
+            <span class="muted">Personal Goal</span>
+            <strong id="leetcode-goal">50</strong>
+          </div>
+        </div>
+
+        <div class="leetcode-progress-item">
+          <div class="progress-heading">
+            <span>Goal progress</span>
+            <span id="leetcode-goal-label">-- / 50</span>
+          </div>
+          <div class="track">
+            <div class="fill" id="leetcode-goal-fill"></div>
+          </div>
+        </div>
+
+        <h3>Difficulty Breakdown</h3>
+
+        <div class="leetcode-progress-item">
+          <div class="progress-heading">
+            <span>Easy</span>
+            <span id="easy-solved">--</span>
+          </div>
+          <div class="track">
+            <div class="fill easy-fill" id="easy-fill"></div>
+          </div>
+        </div>
+
+        <div class="leetcode-progress-item">
+          <div class="progress-heading">
+            <span>Medium</span>
+            <span id="medium-solved">--</span>
+          </div>
+          <div class="track">
+            <div class="fill medium-fill" id="medium-fill"></div>
+          </div>
+        </div>
+
+        <div class="leetcode-progress-item">
+          <div class="progress-heading">
+            <span>Hard</span>
+            <span id="hard-solved">--</span>
+          </div>
+          <div class="track">
+            <div class="fill hard-fill" id="hard-fill"></div>
+          </div>
+        </div>
+
+        <p class="muted" id="leetcode-status" role="status">
+          Loading LeetCode statistics...
+        </p>
+
+        <a
+          class="btn external-link"
+          id="leetcode-profile"
+          href="https://leetcode.com/u/codeWithKashi_17/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open LeetCode profile →
+        </a>
+      </section>
+
+      <section class="card">
+        <h2>snake --flow</h2>
+        <svg
+          class="snake"
+          id="snake"
+          viewBox="0 0 540 120"
+          role="img"
+          aria-label="Animated snake moving across a contribution grid"
+        ></svg>
+
+        <div class="flow">
+          <div class="step"><b>1 · Commit</b>Daily code contributions</div>
+          <div class="step"><b>2 · Action</b>GitHub Action runs</div>
+          <div class="step"><b>3 · Render</b>Snake SVG generated</div>
+          <div class="step"><b>4 · Publish</b>SVG published</div>
+          <div class="step"><b>5 · Display</b>Contribution activity shown</div>
+        </div>
+      </section>
+
+      <section class="card contact" id="contact">
+        <h2>./connect.sh --all-channels</h2>
+        <p>Project, job ya collaboration? Kisi bhi channel par rabta karein.</p>
+
+        <div class="cgrid">
+          <a
+            class="btn"
+            id="portfolio-link"
+            href="#"
+            target="_blank"
+            rel="noopener"
+          >
+            Portfolio <small id="portfolio-text"></small>
+          </a>
+          <a
+            class="btn"
+            id="github-contact"
+            href="#"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub <small id="github-text"></small>
+          </a>
+          <a
+            class="btn"
+            id="linkedin-contact"
+            href="#"
+            target="_blank"
+            rel="noopener"
+          >
+            LinkedIn <small id="linkedin-text"></small>
+          </a>
+          <a
+            class="btn"
+            id="leetcode-contact"
+            href="#"
+            target="_blank"
+            rel="noopener"
+          >
+            LeetCode <small id="leetcode-text"></small>
+          </a>
+          <a class="btn" id="email-contact" href="#">
+            Email <small id="email-text"></small>
+          </a>
+        </div>
+
+        <button class="copy" id="copy" type="button">Copy email address</button>
+      </section>
+
+      <footer>
+        connection closed. thanks for visiting. ✓<br />
+        <b>root@kashiTech</b> — compiled with ❤ in Kohat, Pakistan 🇵🇰
+      </footer>
+    </main>
+  </body>
+</html>
